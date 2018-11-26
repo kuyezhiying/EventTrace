@@ -1,0 +1,43 @@
+{
+  "name": "event_trace",
+  "version": "1.0.0",
+  "description": "Event trace app package information",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "webpack --mode development",
+    "build:prod": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuyezhiying/EventTrace.git"
+  },
+  "keywords": [
+    "event",
+    "trace",
+    "track",
+    "news"
+  ],
+  "author": "Chao Huang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kuyezhiying/EventTrace/issues"
+  },
+  "homepage": "https://github.com/kuyezhiying/EventTrace#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.26.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  }
+}

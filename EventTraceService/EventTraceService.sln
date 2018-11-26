@@ -6,6 +6,13 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventTraceService.Tests", "EventTraceService.Tests\EventTraceService.Tests.csproj", "{72A107CD-8396-4D09-89EE-6478355A0D3A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{13D66BB4-31A0-421D-96BF-531513BD6A1E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{68703E72-D7D1-468A-A7F0-07DF44539994} = {68703E72-D7D1-468A-A7F0-07DF44539994}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Templates", "Templates\Templates.csproj", "{197057EF-890A-40E1-BFBD-9FDC6A75869A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{68703E72-D7D1-468A-A7F0-07DF44539994}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +28,14 @@ Global
 		{13D66BB4-31A0-421D-96BF-531513BD6A1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13D66BB4-31A0-421D-96BF-531513BD6A1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13D66BB4-31A0-421D-96BF-531513BD6A1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{197057EF-890A-40E1-BFBD-9FDC6A75869A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{197057EF-890A-40E1-BFBD-9FDC6A75869A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{197057EF-890A-40E1-BFBD-9FDC6A75869A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{197057EF-890A-40E1-BFBD-9FDC6A75869A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68703E72-D7D1-468A-A7F0-07DF44539994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68703E72-D7D1-468A-A7F0-07DF44539994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68703E72-D7D1-468A-A7F0-07DF44539994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68703E72-D7D1-468A-A7F0-07DF44539994}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

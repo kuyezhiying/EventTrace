@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace EventTraceService.WebApi.Models
+namespace EventTraceService.Models.Events
 {
     public class Event
     {

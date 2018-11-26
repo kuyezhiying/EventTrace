@@ -2,7 +2,7 @@
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using EventTraceService.WebApi.Models;
+using EventTraceService.Models.Events;
 
 namespace EventTraceService.WebApi.Controllers
 {
@@ -23,7 +23,7 @@ namespace EventTraceService.WebApi.Controllers
                 }
             };
 
-        public HttpResponseMessage Get()
+        public HttpResponseMessage GetAll()
         {
             return Request.CreateResponse(HttpStatusCode.OK, events);
         }

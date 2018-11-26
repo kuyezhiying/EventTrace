@@ -1,0 +1,16 @@
+.vs/
+obj/
+node_modules/
+bin/
+dist/
+tmp/
+*.user
+*.userosscache
+*.log
+*.log.*
+*.suo
+*.Cache
+
+EventTraceService/packages
+EventTraceApp/release/
+packages/
